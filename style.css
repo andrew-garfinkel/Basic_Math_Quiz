@@ -1,0 +1,41 @@
+
+
+
+*{
+  text-align: center;
+  /* font-size: 100%; */
+}
+
+
+.disappear{
+  display: none;
+}
+
+button{
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+span{
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+input[type="text"]{
+  width: 40px;
+}
+
+.question{
+  margin: 10px 0;
+}
+
+#how-many-questions{
+  width: 200px;
+} 
+
+#take-quiz-again{
+  width: 100px;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="intro-container">
+    <h1>Welcome to the Basic Math Quiz</h1>
+    <p>How many questions would you like to answer?</p>
+    <input type="text" name="" id="how-many-questions" placeholder="Enter number here" value="">
+    <button id="start-quiz">Start Quiz!</button>
+  </div>
+
+  <main id="main" class="disappear">
+
+    <p>Solve the questions below:</p>
+    <p id="countdown">Good luck!</p>
+
+
+    <div id="question-container">
+      <!-- should be filling up -->
+    </div>
+
+    <!-- <div class="question">
+      <span class="num">1</span>
+      <span class="operator">+</span>
+      <span class="num">4</span>
+      <span class="equal">=</span>
+      <input type="text" name="" id="" class="answer" value="">
+    </div>
+   -->
+    <button style="display: block; margin-top: 10px;" id="submit-answer">Submit answer</button>
+    <p id="feedback"></p>
+
+  </main>
+
+  <div id="end-container" class="disappear">
+    <p id="results-summary"></p>
+    <p>How many questions would you like to try this time?</p>
+    <input type="text" name="" id="take-quiz-again">
+    <button id="try-again">Try again!</button>
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
